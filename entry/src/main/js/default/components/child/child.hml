@@ -1,0 +1,12 @@
+
+
+<div class="container">
+    <div class="box">
+        <image  object-fit="scale-down"
+                class="img"
+                src="../../common/images/null-4c877051e59d56d0.jpg"></image>
+        <div></div>
+        <slot name="other"></slot>
+        <button @click="changeFatherNum">立即打卡</button>
+    </div>
+</div>

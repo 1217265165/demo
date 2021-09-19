@@ -1,0 +1,6 @@
+<div>
+<button onclick="onClick" >BBBBBBBBB</button>
+<text>
+{{winfo}}
+</text>
+</div>

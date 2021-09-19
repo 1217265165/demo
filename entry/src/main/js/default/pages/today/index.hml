@@ -1,0 +1,70 @@
+
+<!--pages/jinri/jinri.wxml-->
+
+<div class="container">
+
+    <div class="shang"><text class="biaoti">今日评估</text>  <image  class="shuaxin" onclick="onClick" src='../../common/images/刷新.png'></image>
+</div>
+    <div class="ziti">
+        <div>
+            <text class="zi1">当前时间</text>
+            <text class="zi2">{{winfo}}</text>
+        </div>
+        <div>
+            <text class="zi1">今日评估次数 </text>
+            <text class="zi2">{{num}} 次</text>
+        </div>
+        <div><text class="zi1">评估时长</text>
+            <text class="zi2">{{num1}} min</text>
+        </div>
+
+    </div>
+
+ <text class="zi3">今日评估整体状况：良好</text>
+
+
+<div class="progress-box">
+    <progress class="min-progress" type="horizontal"  secondarypercent="80"></progress>
+</div>
+
+    <div>
+        <tabs class = "tabs" index="0" vertical="false" onchange="change">
+            <tab-bar class="tab-bar" mode="fixed">
+                <text class="tab-text">图表显示</text>
+                <text class="tab-text">详细数值</text>
+            </tab-bar>
+            <tab-content class="tabcontent" scrollable="true">
+                <div class="item-content" >
+                    <text>First screen</text>
+                </div>
+                <div class="item-content" >
+                    <div class="ha">
+                        <text class="zong">评估总分 79</text>
+                        <div class="bottom">
+                            <div class="bottom1">
+                                <text class="jieshi">肌电评分</text>
+                                <text class="jieshi">80</text>
+                            </div>
+                            <div class="bottom1">
+                                <text class="jieshi">弯曲评分</text>
+                                <text class="jieshi">70</text>
+                            </div>
+                            <div class="bottom1">
+                                <text class="jieshi">震颤评分</text>
+                                <text class="jieshi">77</text>
+                            </div>
+                        </div>
+                <div>
+                <text class="hei">今日震颤次数为10次，平均频率为···</text>
+                <text class="hong">正常</text></div>
+                        <div>
+                <text class="hei">手指弯曲次数为10次，弯曲角度为···</text>
+                <text class="hong">正常</text></div></div>
+            </div>
+            </tab-content>
+        </tabs>
+        </div>
+
+</div>
+
+

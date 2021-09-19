@@ -1,0 +1,218 @@
+.container {
+    position: absolute;
+    margin-top: 30px;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+/*align-items: center;*/
+/*justify-content: space-between;*/
+}
+.divider {
+    margin: 5px;
+    color: #c9c9c9;
+    stroke-width: 2px;
+    line-cap: round;
+}
+/*第一部分*/
+.zi {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.zi2 {
+    height: 40px;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgb(0, 147, 0);
+}
+.shuaxin{
+    height:25px;
+    width:25px;
+    margin-left: 140px;
+    object-fit: contain;
+    margin-top:6px;
+}
+.kuai{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.kuai1{
+    border:1px solid #dbdfdeda;
+    background-color: #faf9fcf5;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin:10px;
+    flex-direction: column;
+}
+.ziti{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+}
+.ziti1 {
+    height: 40px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(90, 89, 89);
+}
+.ziti2 {
+    height: 40px;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgb(0, 147, 0);
+}
+
+.data-bar {
+    width: 700px;
+    height: 180px;
+}
+.zi3
+ {
+     margin-left: 10px;
+     height: 40px;
+     margin-top: 10px;
+     font-size: 18px;
+     color: rgb(90, 89, 89);
+ }
+.neirong{
+    font-size:18px;
+    margin: 10 10 20 20;
+    height: 50px;
+}
+
+
+/*第二部分*/
+.wen1{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.wen2{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.a{
+    flex-direction: column;
+    width: 100%;
+    height: 110px;
+    background-color: #7ce3e3e3;
+}
+.bottom{
+    margin-top:-20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    position: relative;
+}
+.bottom1{
+    width:110px;
+    height: 110px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jieshi{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.jieshi1{
+    margin-top: 10px;
+    font-size: 16px;
+    color: green;
+}
+.todo-wrapper {
+    margin-top: 10px;
+    width: 454px;
+    height: 100px;
+}
+.todo-item {
+    width: 454px;
+    flex-direction: row;
+    margin-left: 20px;
+
+}
+.todo-title1 {
+    width: 80px;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+.todo-title2 {
+    margin-left: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+.tou1{
+    font-size:25px;
+    margin-left:20px;
+}
+.tou2{
+    font-size:25px;
+    color:gray;
+}
+.ha{
+    margin-left: 2px;
+    flex-direction: column;
+    font-size:20px;
+}
+.block{
+    margin-top:10px;
+}
+.tabs {
+    width: 100%;
+}
+.tab-text{
+    font-size:25px;
+
+}
+.tabcontent {
+    width: 100%;
+    height: 85%;
+    justify-content: center;
+}
+.item-content {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic{
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left:20px;
+}
+.wenzi{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    width:200px;
+}
+.wz1{
+    margin-top: 5px;
+    line-height: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.wz2{
+    margin-left: 20px;
+    margin-top: 10px;
+   /* line-height: 20px;*/
+    font-size: 20px;
+}
+
+.time{
+    margin-right:20px;
+    font-size: 25px;
+    color:gray;
+}

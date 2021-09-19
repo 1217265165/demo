@@ -1,0 +1,44 @@
+<div class="container">
+
+    <div class="shuru">
+        <text class="title">手机号</text>
+    <input class="plan-input" type="number"
+           value=""
+           enterkeytype="send"
+           onchange="change"
+           onenterkeyclick="enterkeyClick"></input>
+    </div>
+
+    <div class="shuru">
+        <text class="title">邮箱
+        </text>
+        <input class="plan-input" type="email"
+               value=""
+               enterkeytype="send"
+               onchange="change"
+               onenterkeyclick="enterkeyClick"></input>
+    </div>
+
+    <div class="shuru">
+        <text class="title">
+            用户名
+        </text>
+        <input class="plan-input" type="text"
+               value="" maxlength="10"
+               enterkeytype="send"
+               placeholder="长度不超过10"
+               onchange="change"
+               onenterkeyclick="enterkeyClick"></input>
+    </div>
+
+    <div class="shuru">
+        <text class="title">密码
+        </text>
+        <input class="plan-input" type="password"
+               placeholder="请输入密码"></input>
+    </div>
+
+    <div  class="annu">
+        <button class="zhuce" onclick="jump($index)">完成注册</button>
+    </div>
+</div>

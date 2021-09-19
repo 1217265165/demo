@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "JS_Empty Ability"
+    },
+    {
+      "name": "animate_description",
+      "value": "JS_Empty Ability"
+    },
+    {
+      "name": "entry_animate",
+      "value": "entry_animate"
+    },
+    {
+      "name": "app_description",
+      "value": "JS_Empty Ability"
+    },
+    {
+      "name": "entry_app",
+      "value": "entry_app"
+    },
+    {
+      "name": "my_description",
+      "value": "JS_Empty Ability"
+    },
+    {
+      "name": "entry_my",
+      "value": "entry_my"
+    }
+  ]
+}

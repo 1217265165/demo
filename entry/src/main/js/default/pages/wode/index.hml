@@ -1,0 +1,51 @@
+<element name='comp' src='../../components/tabbar/tabbar.hml'></element>
+<div class="container">
+    <div class="head">
+        <image class="backimg" src="../../common/images/2.jpg" />
+    </div>
+    <div class="body">
+        <div class="top">
+            <image class="pic" src="../../common/images/touxiang.png" ></image>
+            <div class="jianjie">
+                <div><text class="name">destiny</text></div>
+            </div>
+        </div>
+            <div class="block">
+                <image class="tubiao" src="../../common/images/扫描.png" />
+            </div>
+        <div class="list">
+            <div class="listcontent">
+                <image class="tubiao2" src="../../common/images/个人.png"/>
+                <text class="text">个人信息</text>
+            </div>
+            <div class="ziti">
+                <div>
+                    <text class="zi1">患病年限</text>
+                    <text class="zi2">3年</text>
+                </div>
+                <div>
+                    <text class="zi1">病情记录 </text>
+                    <text class="zi2">跳转至病情记录</text>
+                </div>
+                <div><text class="zi1">用药记录</text>
+                    <input class="shuru"></input>
+                </div>
+                <div><text class="zi1">手术记录</text>
+                    <input class="shuru"></input>
+                </div>
+
+            </div>
+            <div class="listcontent">
+                <image class="tubiao2" src="../../common/images/消息.png"/>
+
+                <text class="text">用户反馈</text>
+            </div>
+            <div class="listcontent">
+                <image class="tubiao2" src="../../common/images/关于.png"/>
+
+                <text class="text">关于我们</text>
+            </div>
+        </div>
+        <comp index="1"></comp>
+    </div>
+</div>

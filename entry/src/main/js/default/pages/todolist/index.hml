@@ -1,0 +1,24 @@
+<element name='comp' src='../../components/tabbar/tabbar.hml'></element>
+<div class="container">
+    <text class="title">待办事项</text>
+    <div class="item" for="{{todoList}}">
+        <text class="todo" >{{$item.info}}</text>
+
+        <switch showtext="true" checked="{{$item.status}}"
+                texton="完成" textoff="待办"
+                class="switch"
+                onchange="switchChange($idx)"></switch>
+        <button class="remove" onclick="remove($idx)">删除</button>
+    </div>
+
+    <div class="info">
+        <text class="info-text">您还有</text>
+        <text class="info-num">{{todoCount}}</text>
+        <text class="info-text">件事情待办，加油！</text>
+    </div>
+    <div class="add-todo">
+        <input class="plan-input" type="text"></input>
+        <button class="plan-btn"  onclick="addTodo" @click="addTodo">添加待办</button>
+    </div>
+    <comp index="1"></comp>
+</div>

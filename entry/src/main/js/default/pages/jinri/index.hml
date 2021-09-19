@@ -1,0 +1,154 @@
+<!--pages/a/a.wxml-->
+<element name='comp' src='../../components/tabbar/tabbar.hml'></element>
+<div class="container">
+    <div>
+        <tabs class="tabs" index="0" vertical="false" onchange="change">
+            <tab-bar class="tab-bar" mode="fixed">
+                <text class="tab-text">今日评估</text>
+                <text class="tab-text">历史数据</text>
+            </tab-bar>
+            <tab-content class="tabcontent" scrollable="true">
+                <div class="item-content">
+                <div>
+                    <text class="zi">今日检测次数</text>
+                    <text class="zi2">{{ num }}次</text>
+                    <image  class="shuaxin" onclick="onClick"  src="../../common/images/刷新.png"></image>
+                </div>
+                <div class="kuai">
+                    <div class="kuai1">
+                        <div class="ziti">
+                            <div>
+                                <text class="ziti1">8:43—9:02</text>
+
+                            </div>
+                            <divider class="divider" vertical="false"></divider>
+                            <div>
+                                <text class="ziti1">评估情况 </text>
+                                <text class="ziti2">良好</text>
+                            </div>
+                            <divider class="divider" vertical="false"></divider>
+                            <div>
+                                <text class="ziti1">图表显示</text>
+                            </div>
+                        </div>
+                        <chart class="data-bar" type="bar" id="bar-chart" options="{{ barOps }}"
+                               datasets="{{ barData }}"></chart>
+                        <text class="zi3">科学建议</text>
+                        <text class="neirong">加强手部抓握的训练，合理饮食，调节好情绪</text>
+                    </div>
+                    <div class="kuai1">
+                        <div class="ziti">
+                            <div>
+                                <text class="ziti1">8:43—9:02</text>
+                            </div>
+                            <div>
+                                <text class="ziti1">评估情况 </text>
+                                <text class="ziti2">良好</text>
+                            </div>
+                            <div>
+                                <text class="ziti1">图表显示</text>
+                            </div>
+                        </div>
+                        <chart class="data-bar" type="bar" id="bar-chart" options="{{ barOps }}"
+                               datasets="{{ barData }}"></chart>
+                        <text class="zi3">科学建议</text>
+                        <text class="neirong">加强手部抓握的训练，合理饮食，调节好情绪</text>
+                    </div>
+
+                </div>
+
+            </div>
+                <div class="item-content">
+                    <text class="wen1" >病情发展趋势</text>
+                    <div class="kuai1">
+                        <chart class="data-bar" type="bar" id="bar-chart" options="{{barOps}}" datasets="{{barData}}"></chart>
+                    </div>
+                    <div class="a">
+                    <text class="wen2" >预测评估</text>
+
+                        <div class="bottom">
+                            <div class="bottom1">
+                                <text class="jieshi">病情恶化概率</text>
+                                <text class="jieshi1">36.7%</text>
+                            </div>
+                            <div class="bottom1">
+                                <text class="jieshi">维持现状概率</text>
+                                <text class="jieshi1">51.9%</text>
+                            </div>
+                            <div class="bottom1">
+                                <text class="jieshi">病情改善概率</text>
+                                <text class="jieshi1">11.4%</text>
+                            </div>
+                        </div>
+                    </div>
+                    <text class="wen1" >数据详情</text>
+                    <list class="todo-wrapper">
+                        <list-item for="{{todolist}}" class="todo-item">
+                            <text class="todo-title1">{{$item.title}}</text>
+                            <text class="todo-title2">{{$item.date}}</text>
+                        </list-item>
+                    </list>
+                    <div class="ha">
+                        <div class="block">
+                            <image class="pic" src="../../common/images/三向加速度.png"/>
+                            <div class="wenzi">
+                                <text class="wz1">
+                                    加速度数据
+                                </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+                        <div class="block">
+                            <image class="pic" src="../../common/images/shou.png"/>
+                            <div class="wenzi">
+                                <text class="wz1">
+                                    手部震颤数据
+                                </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+                        <div class="block">
+                            <image class="pic" src="../../common/images/信号.png"/>
+                            <div class="wenzi">
+                                <text class="wz1">
+                                    肌电信号
+                                </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+            </tab-content>
+        </tabs>
+    </div>
+    <comp index="2"></comp>
+</div>
+
+
+
+
+

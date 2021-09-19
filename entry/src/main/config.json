@@ -1,0 +1,135 @@
+{
+  "app": {
+    "bundleName": "com.example.hmtest",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "process": "com.huawei.hiworld.example",
+      "supportBackup": false,
+      "network": {
+        "cleartextTraffic": true,
+        "securityConfig": {
+          "domainSettings": {
+            "cleartextPermitted": true,
+            "domains": [
+              {
+                "subdomains": true,
+                "name": "api.seniverse.com"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "module": {
+    "reqPermissions": [
+      {
+        "reason": "",
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      }
+    ],
+    "package": "com.example.hmtest",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.hmtest.MainAbility",
+    "deviceType": [
+      "phone",
+      "tv",
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.hmtest.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "name": "com.example.hmtest.animate",
+        "icon": "$media:icon",
+        "description": "$string:animate_description",
+        "label": "$string:entry_animate",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "name": "com.example.hmtest.app",
+        "icon": "$media:icon",
+        "description": "$string:app_description",
+        "label": "$string:entry_app",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "name": "com.example.hmtest.my",
+        "icon": "$media:icon",
+        "description": "$string:my_description",
+        "label": "$string:entry_my",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/today/index",
+          "pages/a/index",
+          "pages/dangqian/index",
+          "pages/jinri/index",
+          "pages/wode/index",
+          "pages/index/index",
+          "pages/chart/index",
+          "pages/zhuce/index",
+          "pages/denglu/index",
+          "pages/todolist/index",
+          "pages/fetch/fetch",
+          "pages/shouye/index"
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        }
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "animate",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        }
+      }
+    ]
+  }
+}

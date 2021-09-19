@@ -1,0 +1,37 @@
+
+<div class="container">
+    <div class="bujv">
+    <div class="zujian">
+        <image class="photo" src="../../common/images/登录.png"/>
+        <div  class="you">
+            <text class="hanzi">帕金森评估系统</text>
+            <text class="yingyu">Parkinson's assessment system</text>
+        </div>
+    </div>
+    </div>
+    <div class="bujv1">
+    <div class="shuru">
+        <text class="title">用户名
+        </text>
+        <input class="plan-input" type="text"
+               value=""maxlength="10"
+               enterkeytype="send"
+               placeholder="请输入用户名"
+               onchange="change"
+               onenterkeyclick="enterkeyClick"></input>
+    </div>
+
+    <div class="shuru">
+        <text class="title">密码
+        </text>
+        <input class="plan-input" type="password"
+               placeholder="请输入密码"></input>
+    </div>
+
+    <div  class="annu">
+        <button class="denglu"  onclick="jump(0)" >登录</button>
+        <button class="zhuce"   onclick="jump(3)" >注册</button>
+    </div>
+    </div>
+</div>
+

@@ -1,0 +1,126 @@
+<!--pages/a/a.wxml-->
+
+<div class="container">
+    <div>
+        <text class="tou1">当前评估状态：</text>
+        <text class="tou2">正在评估中</text>
+    </div>
+    <div>
+        <tabs class="tabs" index="0" vertical="false" onchange="change">
+            <tab-bar class="tab-bar" mode="fixed">
+                <text class="tab-text">图表显示</text>
+                <text class="tab-text">详细数值</text>
+            </tab-bar>
+            <tab-content class="tabcontent" scrollable="true">
+                <div class="item-content" >
+                    <div class="zt">
+                     <text  class="zt1">检测时长</text>
+                    <text class="zt2">00.00.00</text>
+                    </div>
+                    <div>
+                    <text class="zi1" >评估次数</text>
+                    <text class="zi2">平均评估次数4次</text>
+                    </div>
+                <div class="kuai">
+                        <div class="kuai1">
+                        <chart class="data-bar" type="bar" id="bar-chart" options="{{barOps}}" datasets="{{barData}}"></chart>
+                        <div>
+
+                        </div>
+
+                        </div>   <div><text class="zi1" >震颤频率</text>
+
+                    <text class="zi2">平均震颤频5.6HZ</text>
+                </div>
+                    <div class="kuai1">
+                        <chart class="chart-data" type="line" ref="linechart" options="{{lineOps}}" datasets="{{lineData}}"></chart>
+                        <div>
+
+
+                        </div>
+                    </div>
+                    <div>
+                        <text class="zi1" >弯曲角度</text>
+                        <text class="zi2">最大弯曲角度145°</text>
+                    </div>
+
+                    <div class="kuai1">
+                        <chart class="chart-data" type="line" ref="linechart1" options="{{lineOps1}}" datasets="{{lineData1}}"></chart>
+                        <div>
+
+
+                        </div>
+                    </div>
+                    <text class="zi1" >肌电信号</text>
+                    <div class="kuai1">
+                        <chart class="chart-data" type="line" ref="linechart" options="{{lineOps2}}" datasets="{{lineData2}}"></chart>
+                        <div>
+
+
+                        </div>
+                    </div>
+                </div></div>
+                <div class="item-content">
+                    <div class="ha">
+
+                        <div class="block">
+                            <image class="pic" src="../../common/images/三向加速度.png"/>
+                            <div class="wenzi">
+                                <text class="wz1">
+                                    加速度数据
+                                </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+
+                        <div class="block">
+                            <image class="pic" src="../../common/images/shou.png"/>
+                            <div class="wenzi"><text class="wz1">
+                                手部震颤数据
+                            </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+                        <div class="block">
+                            <image class="pic" src="../../common/images/信号.png"/>
+                            <div class="wenzi">
+                                <text class="wz1">
+                                    肌电信号
+                                </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+
+                    </div>
+                </div>
+            </tab-content>
+        </tabs>
+
+
+</div>
+</div>
+
+
+
+
+
+
+

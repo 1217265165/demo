@@ -1,0 +1,15 @@
+
+<div class="container">
+    <text class="title">
+        {{ $t('strings.hello') }} {{ title }}
+    </text>
+    <image
+            src="../../common/images/f86089c44a71e55de1347ff7c30a0455.jpg"></image>
+    <list>
+        <list-item-group>
+            <list-item for="{{users}}">
+                <text> {{$item.name}}{{$item.love}}</text>
+            </list-item>
+        </list-item-group>
+    </list>
+</div>

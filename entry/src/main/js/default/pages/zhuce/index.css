@@ -1,0 +1,41 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shuru{
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.annu{
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.zhuce{
+
+    text-color: black;
+    margin-right: 40px;
+    background-color: aliceblue;
+}
+.hha{
+
+}
+.title {
+    font-size: 30px;
+    color: #000000;
+    opacity: 0.9;
+    padding-left: 20px;
+
+}
+.plan-input{
+    placeholder-color: darkgray;
+    font-size: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+
