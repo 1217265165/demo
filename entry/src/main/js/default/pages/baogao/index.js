@@ -15,7 +15,7 @@ export default {
         barOps: {
         xAxis: {
             min: 0,
-            max: 20,
+            max: 30,
             display: true,
             axisTick: 10,
         },

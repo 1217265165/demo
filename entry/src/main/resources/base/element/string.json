@@ -31,6 +31,14 @@
     {
       "name": "entry_my",
       "value": "entry_my"
+    },
+    {
+      "name": "index_description",
+      "value": "JS_Empty Ability"
+    },
+    {
+      "name": "entry_index",
+      "value": "entry_index"
     }
   ]
 }

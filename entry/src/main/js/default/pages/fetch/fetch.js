@@ -1,7 +1,8 @@
 import fetch from '@system.fetch';
 export default {
     data: {
-        title: 'World'
+        title: 'World',
+        username:''
     },
     onReady(){
         fetch.fetch({

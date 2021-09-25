@@ -1,0 +1,76 @@
+
+<element name='comp' src='../../components/tabbar/tabbar.hml'></element>
+<div class="container">
+
+    <tabs  class="xia">
+   <tab-content  scrollable="true">
+       <div class="zheng">
+           <div class="en"><text class="zi">HI,欢迎使用帕金森评估系统</text>
+    <swiper class="swiper" id="swiper" index="0" indicator="true" loop="true" digital="false" autoplay="true" interval="1500" >
+        <div class = "swiperContent" >
+            <image  class="tu"   src="../../common/images/1.png" ></image>
+        </div>
+        <div class = "swiperContent">
+            <image class="tu"   src="../../common/images/2.png"></image>
+        </div>
+        <div class = "swiperContent">
+            <image  class="tu"   src="../../common/images/3.png"></image>
+        </div>
+    </swiper>
+           </div>
+
+           <div class="bottom">
+               <div class="block2">
+                   <image  class="tu1"  onclick="jump(0)" src="../../common/images/计分详情.png">
+                   </image>
+                   <text class="jieshi">今日评估</text>
+               </div>
+               <div class="block2">
+                   <image  class="tu1"  onclick="jump(1)" src="../../common/images/历史.png">
+                   </image>
+                   <text class="jieshi">历史数据</text>
+               </div>
+           </div>
+
+
+
+     <div class="ha">
+         <div ><text class="ti1">产品详情</text> </div>
+        <div class="block">
+            <image  class="pic"  src="../../common/images/b.png"></image>
+            <div class="neirong">
+                <div class="neirong1">
+                    <text class="wenzi1"> 本公司研发的产品主要用于采集帕金森患者日常运动状态数据并记录，方便医生了解患者病情情况并及时给予康复建议，实现疾病的早诊断、早治疗。</text>
+                </div>
+            </div>
+
+        </div>
+         <div ><text class="ti">产品创新</text> </div>
+        <div class="block">
+            <div class="neirong">
+                <div class="neirong1">
+                    <text class="wenzi1">  1.自主设计的范式测量方法</text>
+                    <text class="wenzi1">  2.基于BP神经网络的数据交叉融合算法</text>
+                    <text class="wenzi1">  3.提出科学疗养方案的大数据分析算法</text>
+                </div>
+            </div>
+            <image  class="pic1" src="../../common/images/c.png"></image>
+        </div>
+         <div ><text class="ti1">产品理念</text> </div>
+
+         <div class="block1">
+             <image class="pic1" src="../../common/images/e.png"></image>
+             <div class="neirong">
+                 <div class="neirong1">
+                 <text class="wenzi1"> (1)树立品牌意识，建立品牌文化，加强品牌管理。</text>
+                     <text class="wenzi1">(2)让更多的终端客户认可到我们公司的品牌价值—高性能质量的代名词。</text>
+                 </div>
+             </div>
+         </div>
+
+</div></div>
+</tab-content></tabs>
+
+    <comp index="0"></comp>
+
+</div>

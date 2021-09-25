@@ -35,7 +35,54 @@
             </tab-bar>
             <tab-content class="tabcontent" scrollable="true">
                 <div class="item-content" >
-                    <text>First screen</text>
+                    <div class="ha">
+                        <div class="block">
+                            <image class="pic" src="../../common/images/三向加速度.png"/>
+                            <div class="wenzi">
+                                <text class="wz1">
+                                    加速度数据
+                                </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+                        <div class="block">
+                            <image class="pic" src="../../common/images/shou.png"/>
+                            <div class="wenzi">
+                                <text class="wz1">
+                                    手部震颤数据
+                                </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+                        <div class="block">
+                            <image class="pic" src="../../common/images/信号.png"/>
+                            <div class="wenzi">
+                                <text class="wz1">
+                                    肌电信号
+                                </text>
+                                <text class="wz2">
+                                    time
+                                </text>
+                            </div>
+                            <text class="time">
+                                >
+                            </text>
+
+                        </div>
+
+                    </div>
                 </div>
                 <div class="item-content" >
                     <div class="ha">

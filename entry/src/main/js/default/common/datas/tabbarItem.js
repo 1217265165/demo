@@ -2,19 +2,24 @@
 // common.datas.tabbarItem.js
 export default [
     {
-        img:'common/images/主页.png',
-        simg:'common/images/主页 (1).png',
+        img:'common/images/首页.png',
+        simg:'common/images/首页 1.png',
         name:'首页'
     },
-    {
-        img:'common/images/我的.png',
-        simg:'common/images/我的 (1).png',
-        name:'我'
-    },
-    {
-        img:'common/images/更多.png',
-        simg:'common/images/更多 (1).png',
-        name:'更多'
-    },
 
+    {
+        img:'common/images/报告.png',
+        simg:'common/images/报告1.png',
+        name:'报告'
+    },
+    {
+        img:'common/images/设备.png',
+        simg:'common/images/设备1.png',
+        name:'设备'
+    },
+    {
+        img:'common/images/个人.png',
+        simg:'common/images/个人 1.png',
+        name:'我的'
+    },
 ]

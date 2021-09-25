@@ -96,23 +96,30 @@
         "label": "$string:entry_my",
         "type": "page",
         "launchType": "standard"
+      },
+      {
+        "name": "com.example.hmtest.index",
+        "icon": "$media:icon",
+        "description": "$string:index_description",
+        "label": "$string:entry_index",
+        "type": "page",
+        "launchType": "standard"
       }
     ],
     "js": [
       {
         "pages": [
-          "pages/today/index",
-          "pages/a/index",
-          "pages/dangqian/index",
-          "pages/jinri/index",
-          "pages/wode/index",
-          "pages/index/index",
-          "pages/chart/index",
-          "pages/zhuce/index",
-          "pages/denglu/index",
-          "pages/todolist/index",
           "pages/fetch/fetch",
-          "pages/shouye/index"
+
+          "pages/shouye/index",
+          "pages/baogao/index",
+          "pages/shebei/index",
+          "pages/wode/index",
+          "pages/today/index",
+
+          "pages/denglu/index",
+          "pages/zhuce/index",
+
         ],
         "name": "default",
         "window": {

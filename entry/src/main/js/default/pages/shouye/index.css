@@ -1,141 +1,163 @@
 
-.title {
-    font-size: 50px;
-}
-.bianti{
-    /*background-color: transparent;*/
-    justify-content: center;
-    height: 80px;
-    background-color:#bab8b8;
-}
-
-.ziti
-{   padding-top: 30px;
-    font-size: 26px;
-}
 .container {
+    background-color: #43d3d3d3;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 92%;
     flex-direction: column;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+.tabcontent {
     width: 100%;
-    height: 100%;
-    align-items: center;
-}
-.xia{
-    margin-top: 0px;
-    margin-bottom: 70px;
-}
-.zheng{
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-}
-.en{
-    background-color:lightgray;
-    width: 100%;
-    height: 170px;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
-.swiper {
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    width:90%;
-    height: 250px;
-    border: 1px solid #000000;
-    indicator-color:#20808080;
-    indicator-size: 14px;
-    indicator-bottom: 20px;
-    indicator-right: 30px;
-    border-radius: 30px;
-    margin-top: 10px;
-    margin-bottom: -60px;
-}
-.swiperContent {
     height: 100%;
     justify-content: center;
+    margin-bottom: 40px;
+}
+.content {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+/*最上边*/
+.tou{
+    background-color: white;
+    height: 100px;
+}
+.zt{
+    flex-direction: column;
+    height: 130px;
+    width: 50%;
+}
+.Zt{
+    flex-direction: column;
+    height: 130px;
+    width: 50%;
+    margin-top: 20px;
+}
+.zt1{
+    margin-top: 18px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.zt2{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 27px;
+}
+.zt3{
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 17px;
 
 }
-.tu{
-    border-radius: 30px;
-    object-fit: cover;
+.zt4{
+    margin-top: 8px;
+    font-size: 18px;
+    color: green;
 }
-.zi{
-    height: 40px;
-    margin-top: 20px;
-    font-size: 15px;
-    margin-left:-130px;
-    color: black;
-    font-size: 17px;
-}
-.bottom{
-    margin-top:40px;
-    display: flex;
+/*标题*/
+.biaoti{
+    height: 45px;
     flex-direction: row;
-    align-items: center;
-    position: relative;
+    margin-top: 10px;}
+.ziti1{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
 }
-.block2{
-    margin-top:20px;
-    width: 97%;
-    width:110px;
-    height: 90px;
-    position: relative;
+.ziti2{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.ziti3{
+    font-size: 20px;
+    color: green;
+    margin-top: 10px;
+}
+.kuai{
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 10px;
 }
-.tu1{
-    height: 40px;
-    width: 40px;
+.kuai1{
+    width: 340px;
+    height: 160px;
+    border:1px solid #dbdfdeda;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+
 }
-.jieshi{
-    font-size: 11px;
+
+
+
+
+
+.tou1{
+    font-size:25px;
+    margin-left:20px;
+}
+.tou2{
+    font-size:25px;
+    color:gray;
 }
 .ha{
-    margin-top:-20px;
     margin-left: 2px;
     flex-direction: column;
     font-size:20px;
-    padding-top:0px;
-    display: flex;
+    margin-top: -300px;
 }
-.ti {
+.block{
+    margin-top:10px;
+}
+.tabs {
+    width: 100%;
+}
+.content {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.block{
+    margin-top:10px;
+}
+
+.zi1 {
     font-size: 20px;
+    width:100px;
+    margin-top: 20px;
     margin-left: 20px;
-    margin-top: 10px;
-    
+    width: 160px;
 }
-.ti1{
+.zi2{
     font-size: 20px;
-    margin-left:250px;
+}
+.chart-data {
+    width: 700px;
+    height: 400px;
     margin-top: 10px;
+}
+.data-bar {
+    width: 700px;
+    height: 400px;
 }
 .pic{
-    width: 250px;
-    height: 180px;
-    margin:10px;
-    object-fit: fill;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left:20px;
 }
-.pic1{
-    width: 250px;
-    height: 180px;
-    margin:10px;
-    object-fit: fill;
-}
-.neirong{
+.wenzi{
+    height: 80px;
+    display: flex;
     flex-direction: column;
-    background-color: #68d3d3d3;
-    border-radius: 20px;
-    justify-content: center;
-}
-.neirong1{
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    margin: 10px;
-}
-.wenzi1{
-    font-size: 17px;
+    width:200px;
 }

@@ -26,7 +26,7 @@ export default {
                 break;
             case 1:
                 router.push({
-                    uri: "pages/wode/index",
+                    uri: "pages/baogao/index",
                     params: {
                         info: "这是路由传递的参数"
                     }
@@ -34,12 +34,20 @@ export default {
                 break;
             case 2:
                 router.push({
-                    uri: "pages/jinri/index",
+                    uri: "pages/shebei/index",
                     params: {
                         info: "这是路由传递的参数"
                     }
                 });
                 break;
+            case 3:
+            router.push({
+                uri: "pages/wode/index",
+                params: {
+                    info: "这是路由传递的参数"
+                }
+            });
+            break;
         }
     }
 }

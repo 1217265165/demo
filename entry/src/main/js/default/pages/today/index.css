@@ -136,4 +136,42 @@
     font-size: 25px;
 }
 
+.ha{
+    margin-left: 2px;
+    flex-direction: column;
+    font-size:20px;
+}
+.block{
+    margin-top:10px;
+}
+.pic{
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left:20px;
+}
+.wenzi{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    width:200px;
+}
+.wz1{
+    margin-top: 5px;
+    line-height: 20px;
+    margin-left: 20px;
+    font-size: 20px;
 
+}
+.wz2{
+    margin-left: 20px;
+    margin-top: 10px;
+/* line-height: 20px;*/
+    font-size: 20px;
+}
+
+.time{
+    margin-right:20px;
+    font-size: 25px;
+    color:gray;
+}
