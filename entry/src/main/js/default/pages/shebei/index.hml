@@ -3,54 +3,45 @@
 <div class="container">
 
 
- <div class="ha">
-                        <div class="block">
-                            <image class="pic" src="../../common/images/三向加速度.png"/>
-                            <div class="wenzi">
-                                <text class="wz1">
-                                    加速度数据
-                                </text>
-                                <text class="wz2">
-                                    time
-                                </text>
-                            </div>
-                            <text class="time">
-                                >
-                            </text>
+    <div class="kuai">
+        <div class="tou">
+            <text class="zi1">我的设备</text>
+            <image class="shuaxin" onclick="onClick" src="../../common/images/扫描.png"></image>
+            <text class="zi2">设备标识码</text>
+        </div>
+        <div class="zi">
+            <text class="ziti1">设备id </text>
+            <text class="ziti2">良好</text>
+        </div>
+        <div class="zi">
+            <text class="ziti1">当前状态: </text>
+            <text class="ziti2">正在使用中</text>
+        </div>
+        <div class="zi">
+            <image class="pic1" src="../../common/images/信号.png"/>
+            <text class="ziti3">设备当前连接网络: </text>
+            <text class="ziti2">哈哈</text>
+        </div>
 
-                        </div>
-                        <div class="block">
-                            <image class="pic" src="../../common/images/shou.png"/>
-                            <div class="wenzi">
-                                <text class="wz1">
-                                    手部震颤数据
-                                </text>
-                                <text class="wz2">
-                                    time
-                                </text>
-                            </div>
-                            <text class="time">
-                                >
-                            </text>
+    </div>
+    <div class="zhong">
+    <text class="zi3">更改适配网络</text>
+    <image class="wifi" onclick="onClick" src="../../common/images/wifi.png"></image>
+</div>
+    <div>
+    <div class="shuru">
+        <input class="plan-input" type="text"
+               value=""maxlength="10"
+               enterkeytype="send"
+               placeholder="若未显示请输入WIFI名称"
+               onchange="change"
+               onenterkeyclick="enterkeyClick"></input>
+        <input class="plan-input" type="password"
+               placeholder="Enter the passward"></input>
 
-                        </div>
-                        <div class="block">
-                            <image class="pic" src="../../common/images/信号.png"/>
-                            <div class="wenzi">
-                                <text class="wz1">
-                                    肌电信号
-                                </text>
-                                <text class="wz2">
-                                    time
-                                </text>
-                            </div>
-                            <text class="time">
-                                >
-                            </text>
+    </div>
 
-                        </div>
-
-                    </div>
+</div>
 
     <comp index="2"></comp>
 

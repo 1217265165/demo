@@ -21,43 +21,41 @@
                 </div>
             </div>
         </div>
-        <div class="biaoti">
-            <text class="ziti1">评估次数</text>
-            <div>
-                <text class="ziti2">平均震颤频率: </text>
-                <text class="ziti3">6.5HZ</text>
-            </div>
-        </div>
+
         <div class="kuai">
 
             <div class="kuai1">
+                <div class="biaoti">
+                <text class="ziti1">手部震颤</text>
+                <div>
+                    <text class="ziti2">平均震颤频率: </text>
+                    <text class="ziti3">6.5HZ</text>
+                </div>
+            </div>
                 <chart class="chart-data" type="line" ref="linechart" options="{{ lineOps }}" datasets="{{ lineData }}">
                 </chart>
 
             </div>
-            <div class="biaoti">
+
+            <div class="kuai1">
+                <div class="biaoti">
                 <text class="ziti1">弯曲角度</text>
                 <div>
                     <text class="ziti2">最大弯曲角度: </text>
                     <text class="ziti3">145°</text>
                 </div>
             </div>
-            <div class="kuai1">
                 <chart class="chart-data" type="line" ref="linechart1" options="{{ lineOps1 }}"
                        datasets="{{ lineData1 }}"></chart>
-                <div>
-
-
-                </div>
             </div>
-            <div class="biaoti">
+
+            <div class="kuai1"><div class="biaoti">
                 <text class="ziti1">肌电信号</text>
                 <div>
                     <text class="ziti2"></text>
                     <text class="ziti3"></text>
                 </div>
             </div>
-            <div class="kuai1">
                 <chart class="chart-data" type="line" ref="linechart" options="{{ lineOps2 }}"
                        datasets="{{ lineData2 }}"></chart>
                 <div>
