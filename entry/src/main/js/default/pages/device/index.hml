@@ -1,0 +1,84 @@
+<!--pages/a/a.wxml-->
+<element name='comp' src='../../components/tabbar/tabbar.hml'></element>
+<div class="container">
+
+
+    <div class="kuai">
+        <div class="tou">
+            <text class="zi1">我的设备</text>
+            <image class="shuaxin" onclick="onClick" src="../../common/images/扫描.png"></image>
+            <text class="zi2">设备标识码</text>
+        </div>
+        <div class="zi">
+            <text class="ziti1">设备id </text>
+            <text class="ziti2">{{id}}</text>
+        </div>
+        <div class="zi">
+            <text class="ziti1">当前状态: </text>
+            <text class="ziti2">{{state}}</text>
+        </div>
+        <div class="zi">
+            <image class="pic1" src="../../common/images/信号.png"/>
+            <text class="ziti3">设备当前连接网络: </text>
+            <text class="ziti2">{{wifi}}</text>
+        </div>
+
+    </div>
+     <div class="wang">
+    <div class="zhong">
+    <text class="zi3">更改适配网络</text>
+    <image class="wifi" onclick="onClick" src="../../common/images/wifi.png"></image>
+</div>
+        <div>
+    <div class="shuru">
+        <input class="plan-input" type="text"
+               value=""maxlength="10"
+               enterkeytype="next"
+               placeholder="请输入WIFI名称"
+               onenterkeyclick="enterkeyClick" onchange="inputWifi"></input>
+        <input class="plan-input" id="Password" type="password" value="" maxlength="16" enterkeytype="done"
+               placeholder="Enter the passward" onchange="inputPwd"></input>
+        </div>
+
+    </div>
+         <div class="bar">
+             <text class="xia" onclick="on" >连接</text>
+             <image  class="img" src="common/image/按键分割线.png" style="width: 25px;height: 25px;" >
+             </image>
+             <text class="xia"  onclick="off" >断开</text>
+         </div>
+</div>
+    <comp index="2"></comp>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

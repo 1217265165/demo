@@ -1,0 +1,131 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bujv{
+    margin-top: 200px;
+}
+
+.shuru{
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.annu{
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.bar{
+    top:30px;
+    left: 70px;
+}
+.img{
+    top:8px;
+}
+.denglu{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    right: 110px;
+    top:-100px;
+    background-color: #FFFFFF;
+}
+.zhuce{
+    background-color: #FFFFFF;
+    text-color: black;
+}
+
+.title {
+    font-size: 25px;
+    color: #000000;
+    opacity: 0.9;
+    padding-left: 30px;
+
+}
+.plan-input{
+    placeholder-color: darkgray;
+    font-size: 20px;
+    margin-right: 20px;
+    height: 50px;
+    width: 200px;
+}
+/* pages/denglu/denglu.wxss */
+.content{
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    bottom:140px;
+}
+.input{
+
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    placeholder-color: gray;
+}
+.zujian{
+
+    display: flex;
+    flex-direction: row;
+    bottom:140px;
+
+}
+.you{
+    margin-top:5px;
+    height:70px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.hanzi{
+    margin-left: 15px;
+    font-size:30px;      /*设置文字字号*/
+    text-color:black;           /*设置文字颜色*/
+}
+.yingyu{
+    margin-left: 10px;
+    font-size:16px;
+}
+.photo{
+    width: 70px;
+    height:70px;
+    border-radius: 100px;
+    margin-left:20px;
+}
+
+@media screen and (device-type: tablet) and (orientation: landscape) {
+    .title {
+        font-size: 100px;
+    }
+}
+
+@media screen and (device-type: wearable) {
+    .title {
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: tv) {
+    .container {
+        background-image: url("../../common/images/Wallpaper.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title {
+        font-size: 100px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: phone) and (orientation: landscape) {
+    .title {
+        font-size: 60px;
+    }
+}

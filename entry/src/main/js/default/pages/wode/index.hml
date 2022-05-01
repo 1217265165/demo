@@ -1,0 +1,87 @@
+<element name='comp' src='../../components/tabbar/tabbar.hml'></element>
+<div class="container">
+    <tabs vertical="true">
+        <tab-content  class="tabcontent" scrollable="true">
+            <div class='content'>
+    <div class="head">
+        <div class="backimg">
+            <div class="top">
+                <div class="jianjie">
+                    <div><text class="name">destiny</text></div>
+                    <div><text class="count">账户：187*****719</text></div>
+                    <div>
+                        <image class="zuanshi" src="../../common/image/钻石.png" />
+                        <text class="leiji">已累计监测{{num}}天</text></div></div>
+
+<div  class="you">
+                <image class="pic" src="../../common/images/touxiang.png"  ></image>
+                <image class="change" src="../../common/image/change.png" />
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="list">
+            <div class="listcontent">
+                <image class="tubiao2" src="../../common/image/wo.png"/>
+                <text class="text">个人信息</text>
+                <image class="tubiao" src="../../common/images/扫描.png" />
+            </div>
+            <div class="ziti">
+                <div>
+                    <text class="zi1">患病年限</text>
+                    <text class="zi2">3年</text>
+                </div>
+                <div>
+                    <text class="zi1">病情记录 </text>
+                    <text class="zi2">跳转至病情记录</text>
+                </div>
+                <div><text class="zi1">用药记录</text>
+                    <input class="shuru"></input>
+                </div>
+                <div><text class="zi1">手术记录</text>
+                    <input class="shuru"></input>
+                </div>
+
+            </div>
+            <divider class="divider" vertical="false"></divider>
+<!--            <div class="listcontent">-->
+<!--                <image class="tubiao2" src="../../common/image/talk.png"/>-->
+
+<!--                <text class="text">用户反馈</text>-->
+<!--            </div>-->
+<!--            <divider class="divider" vertical="false"></divider>-->
+
+        </div></div>
+                <div class="end">
+                <div class="flex-box">
+                    <div class="flex-item">
+                        <image class="tubiao3" src="../../common/image/fankui.png"/>
+                        <text class="text1">关于我们</text>
+                        <text class="text2">About us</text>
+                    </div>
+                    <div class="flex-item">
+                        <image class="tubiao3" src="../../common/image/talk.png"/>
+                        <text class="text1">用户反馈</text>
+                        <text class="text2">Feed back</text>
+                    </div>
+                    </div>
+                    <div class="flex-box">
+                    <div class="flex-item">
+                        <image class="tubiao3" src="../../common/image/用户指南.png"/>
+                        <text class="text1">用户指南</text>
+                        <text class="text2">User guide</text>
+                    </div>
+                    <div class="flex-item">
+                        <image class="tubiao3" src="../../common/image/分享链接.png"/>
+                        <text class="text1">分享链接</text>
+                        <text class="text2">Share link</text>
+                    </div>
+                </div>
+                </div>
+
+        </div>
+    </tab-content>
+    </tabs>
+    <comp index="3"></comp>
+</div>

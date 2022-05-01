@@ -1,0 +1,244 @@
+<div class="container">
+    <div>
+        <text class='title'> Parkinson's Disease Assessment System
+        </text>
+    </div>
+    <div class='main'>
+        <div class='block1'>
+            <tabs vertical="true">
+                <tab-content class="tabcontent" scrollable="true">
+                    <div class='content'>
+                        <div class="head">
+                            <div class="backimg">
+                                <div class="top">
+                                    <div class="pic">
+                                        <image class="touxiang" src="../../common/images/2.jpg"></image>
+                                    </div>
+                                    <div class="jianjie">
+                                        <div>
+                                            <text class="name">某某医院帕金森专家</text>
+                                        </div>
+                                        <div>
+                                            <text class="count">账户：187*****719</text>
+                                        </div>
+                                        <div>
+                                            <image class="icon1" src="../../common/image/钻石.png"/>
+                                            <text class="text">已上传医生执业证书</text>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kuai">
+                            <div class="kuai-item">
+                                <text class="text1">30</text>
+                                <text class="text2">患者</text>
+                            </div>
+                            <div class="kuai-item">
+                                <text class="text1">122</text>
+                                <text class="text2">问诊</text>
+                            </div>
+                            <div class="kuai-item">
+                                <text class="text1">88</text>
+                                <text class="text2">好评</text>
+                            </div>
+                        </div>
+                        <div class='list'>
+                            <div class='list-item'>
+                                <image class="tubiao" src="../../common/images/me.png"/>
+                                <text class="wenzi1">个人信息</text>
+                                <text class="wenzi2">></text>
+                            </div>
+                            <div class='list-item'>
+                                <image class="tubiao" src="../../common/images/address.png"/>
+                                <text class="wenzi1">我的团队</text>
+                                <text class="wenzi2">></text>
+                            </div>
+                            <div class='list-item'>
+                                <image class="tubiao" src="../../common/images/more.png"/>
+                                <text class="wenzi1">患者管理</text>
+                                <text class="wenzi2">></text>
+                            </div>
+                            <div class='list-item'>
+                                <image class="tubiao" src="../../common/images/fill in.png"/>
+                                <text class="wenzi1">意见反馈</text>
+                                <text class="wenzi2">></text>
+                            </div>
+                            <div class='list-item'>
+                                <image class="tubiao" src="../../common/images/classification.png"/>
+                                <text class="wenzi1">系统设置</text>
+                                <text class="wenzi2">></text>
+                            </div>
+
+                        </div>
+                    </div>
+                </tab-content>
+            </tabs>
+        </div>
+        <div class='block2'>
+            <div class="itemblock1">
+                <div class="item-block1-1"></div>
+                <text class="item-block1-2">患者管理</text>
+            </div>
+
+            <div class="itemblock4">
+                <text class="itemblock4text1">我的患者</text>
+                <text class="itemblock4text2">v</text>
+            </div>
+            <div class="itemblock2">
+            <input id="Account" class="input" type="number" value="" maxlength="11" enterkeytype="next"
+                   headericon="common/image/搜索.png"  onchange="">
+            </input>
+        </div>
+            <div class="itemblock3">
+                <div class="itemtext">
+                    <text class='itemtext1'>某某</text>
+                    <text class='itemtext2'>患病年限:3年 已连续追踪14天</text>
+                </div>
+                <div class="itemtext">
+                    <div>
+                        <text class="itemtext4">发展趋势:</text>
+                        <text class="itemtext3">良好</text>
+                    </div>
+                    <div>
+                        <text class="itemtext4">H&Y等级:</text>
+                        <text class="itemtext3">1.5级</text>
+                    </div>
+                </div>
+                <text class="itemtext5">谁为重点关注</text>
+            </div>
+            <div class="itemblock3">
+                <div class="itemtext">
+                    <text class='itemtext1'>某某</text>
+                    <text class='itemtext2'>患病年限:3年 已连续追踪14天</text>
+                </div>
+                <div class="itemtext">
+                    <div>
+                        <text class="itemtext4">发展趋势:</text>
+                        <text class="itemtext3">良好</text>
+                    </div>
+                    <div>
+                        <text class="itemtext4">H&Y等级:</text>
+                        <text class="itemtext3">1.5级</text>
+                    </div>
+                </div>
+                <text class="itemtext5">谁为重点关注</text>
+            </div>
+            <div class="itemblock3">
+            <div class="itemtext">
+                <text class='itemtext1'>某某</text>
+                <text class='itemtext2'>患病年限:3年 已连续追踪14天</text>
+            </div>
+            <div class="itemtext">
+                <div>
+                    <text class="itemtext4">发展趋势:</text>
+                    <text class="itemtext3">良好</text>
+                </div>
+                <div>
+                    <text class="itemtext4">H&Y等级:</text>
+                    <text class="itemtext3">1.5级</text>
+                </div>
+            </div>
+            <text class="itemtext5">谁为重点关注</text>
+        </div>
+            <div class="itemblock4">
+                <text class="itemblock4text1">新的预约</text>
+                <text class="itemblock4text2">v</text>
+            </div>
+            <div class="itemblock3">
+                <div class="itemtext">
+                    <text class='itemtext1'>某某</text>
+                    <text class='itemtext2'>患病年限:3年 已连续追踪14天</text>
+                </div>
+                <div class="itemtext">
+                    <div>
+                        <text class="itemtext4">发展趋势:</text>
+                        <text class="itemtext3">良好</text>
+                    </div>
+                    <div>
+                        <text class="itemtext4">H&Y等级:</text>
+                        <text class="itemtext3">1.5级</text>
+                    </div>
+                </div>
+                <text class="itemtext5">谁为重点关注</text>
+            </div>
+        </div>
+        <div class='block3'>
+            <div class='part1'>
+                <div class='part1-left'>
+                    <image class="part1-touxiang" src="../../common/images/2.jpg"></image>
+                    <text class="part1left-text" >Solène</text>
+                </div>
+                <div class='part1-text'>
+                <text class='part1-text1'>患者信息</text>
+                <div class='part1-text2'>
+                    <text class='part1text2'>患病年限:3年</text>
+                    <text class='part1text2'>用药记录:安齐达/森福罗/息宁/盐酸罗匹尼罗片/泰舒达</text>
+                    <text class='part1text2'>手术记录:无</text>
+                </div>
+                <div class="part1-text3">
+                    <div>
+                        <text class="part1text3">发展趋势：</text>
+                        <text class="part1text3-1">良好</text>
+                    </div>
+                    <div>
+                        <text class="part1text3">H&Y等级：</text>
+                        <text class="part1text3-1">1.5级</text>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class='part2'>
+                <text class="part2-text">数据详情</text>
+                <list class="todo-wrapper">
+                    <list-item for="{{ todolist }}" class="todo-item">
+                        <text class="todo-title1">{{ $item.title}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                        <text class="todo-title2">{{ $item.date}}</text>
+                    </list-item>
+                </list>
+            </div>
+            <div class='part3'>
+                <div class="part3-content1">
+                    <div>
+                        <text class="content1text">评估等级</text>
+                        <progress class="min-progress" type="horizontal"  secondarypercent="80"></progress>
+                    </div>
+                    <div>
+                        <text class="content1text">静止性震颤</text>
+                    <progress class="min-progress" type="horizontal"  secondarypercent="65"></progress>
+                     </div>
+                    <div>
+                        <text class="content1text">肌强直</text>
+                        <progress class="min-progress" type="horizontal"  secondarypercent="74"></progress>
+                    </div>
+                    <div>
+                        <text class="content1text">运动迟缓</text>
+                        <progress class="min-progress" type="horizontal"  secondarypercent="36"></progress>
+                    </div>
+
+                </div>
+                <div class="part3-content2">
+                    <text class="content2text">评分变化</text>
+                    <chart  class="bar" type="bar" id="bar-chart" options="{{ barOps }}" datasets="{{ barData }}"></chart>
+                </div>
+            </div>
+            <div class='part4'>
+                <div>
+                    <chart type="line" ref="linechart" options="{{ lineOps }}"
+                           datasets="{{ lineData }}">
+                    </chart>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

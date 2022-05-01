@@ -1,0 +1,11 @@
+
+<div class="container">
+    <text class="title">注册成功</text>
+    <div class="content">
+        <image  class="imgs" src="common/image/注册成功.png" >
+        </image>
+        <image-animator class="animator" iteration="1" ref="animator" images="{{frames}}" duration="5s" />
+        <text class="title1">秒后自动跳转</text>
+    </div>
+</div>
+

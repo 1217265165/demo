@@ -1,0 +1,32 @@
+
+<div class="container">
+    <div class="bujv">
+    <div class="zujian">
+        <image class="photo" src="../../common/images/登录.png"/>
+        <div  class="you">
+            <text class="hanzi">帕金森评估系统</text>
+            <text class="yingyu">Parkinson's assessment system</text>
+        </div>
+    </div>
+    </div>
+    <div class="content">
+        <input id="Account" class="input" type="number" value="" maxlength="11" enterkeytype="next"
+               headericon="common/image/账号.png"  placeholder="Please input account" onchange="inputAccount">
+        </input>
+
+        <input id="Password" class="input" type="password" value="" maxlength="16" enterkeytype="done"
+               headericon="common/image/密码.png"  placeholder="Please input password" onchange="inputPwd">
+        </input>
+    </div>
+<!--    请求数据-->
+    <div  class="annu">
+        <button class="denglu" type="circle" onclick="login" icon="common/image/箭头.png" ></button>
+    </div>
+    <div class="bar">
+        <button class="zhuce"  type="capsule" onclick="jump(1)" >用户注册</button>
+        <image  class="img" src="common/image/按键分割线.png" style="width: 25px;height: 25px;" >
+        </image>
+        <button class="zhuce"  type="capsule" onclick="" >找回密码</button>
+    </div>
+</div>
+

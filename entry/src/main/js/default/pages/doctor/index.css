@@ -1,0 +1,388 @@
+.container {
+    flex-direction:column;
+}
+.title{
+    font-size: 20px;
+}
+.main{
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+/*左侧*/
+.block1{
+    background-color: lightblue;
+    width:22%;
+    height: 100%;
+    flex-direction:column;
+}
+.block2{
+    background-color: #d9f1d5;
+    width:20%;
+    height: 100%;
+    flex-direction:column;
+}
+.block3{
+    background-color: #ebfcfcfc;
+    width:58%;
+    height: 100%;
+    flex-direction:column;
+}
+/*左*/
+.tabcontent {
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.content {
+    height: 100%;
+    flex-direction: column;
+}
+.divider {
+    margin-top:5px;
+    margin-bottom:5px;
+    color:white;
+    stroke-width: 1.6px;
+    line-cap: round;
+}
+.head{
+    width: 100%;
+    height: 180px;
+    margin-bottom: -40px;
+}
+.body{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 5%;
+}
+.end{
+    align-items: center;
+    top: 250px;
+    flex-direction: column;
+    height: 300px;
+}
+.pic{
+    margin-right:10px;
+    margin-left: 10px;
+    flex-direction: column;
+}
+.touxiang{
+    margin-top:50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.jianjie{
+    margin-top: 40px;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+.name{
+    font-size: 13px;
+    color:white;
+    margin-top:20px;
+}
+.count{
+    font-size: 11px;
+    color:white;
+
+}
+.icon1{
+    width:15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left:0px;
+}
+.text{
+    margin-top: 20px;
+    font-size:10px;
+    color: #f4ea2a;
+    margin-left:10px;
+}
+.backimg{
+    background-image: url(/common/image/beijing.png);
+    width: 100%;
+    height: 180px;
+}
+.kuai{
+    background-color: white;
+    width: 90%;
+    left: 5%;
+    height: 100px;
+    flex-direction: row;
+    justify-content:center;
+    border-radius: 15px;
+    border:1px solid #dbdfdeda;
+}
+.kuai-item{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    color: blue;
+    font-size: 15px;
+}
+.text2{
+    color: black;
+    font-size: 15px;
+}
+.list{
+    margin-top: 20px;
+    flex-direction: column;
+}
+.list-item{
+    background-color: white;
+    flex-direction: row;
+    height: 40px;
+}
+.tubiao{
+    width: 20px;
+    height: 20px;
+    margin:10px 5px 10px 10px;
+}
+.wenzi1{
+    font-size: 15px;
+    color: black;
+    margin-left:0px;
+    width: 50%;
+}
+.wenzi2{
+    font-size: 20px;
+    color: black;
+    width: 30%;
+    margin-left: 30px;
+}
+/*中间*/
+.itemblock1{
+    flex-direction: row;
+}
+.item-block1-1{
+    width:10px;
+    height:40px;
+    background-color: green;
+    margin-left: 20px;
+}
+.item-block1-2{
+    font-size: 20px;
+    color: black;
+}
+.itemblock2{
+    flex-direction:column;
+    width: 90%;
+    left: 5%;
+}
+.input{
+    margin-top:-5px;
+    justify-content: center;
+    margin-bottom: 5px;
+    align-items: center;
+    width: 100%;
+    placeholder-color: gray;
+    height:25px;
+}
+.itemblock4{
+    flex-direction: row;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.itemblock4text1{
+    margin-left: 20px;
+    color: black;
+    font-size: 15px;
+    width: 85%;
+}
+.itemblock4text2{
+    color: black;
+    font-size: 10px;
+}
+
+.itemblock3{
+    flex-direction:column;
+    background-color: white;
+    width: 90%;
+    left: 5%;
+    height: 60px;
+}
+.itemtext{
+    flex-direction: row;
+}
+.itemtext1{
+    margin-top:10px;
+    color: black;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.itemtext2{
+    margin-top:15px;
+    color: black;
+    font-size: 9px;
+    margin-left: 10px;
+}
+.itemtext4{
+    margin-top:7px;
+    color: black;
+    font-size: 9px;
+    margin-left: 10px;
+}
+.itemtext3{
+    margin-top:7px;
+    color: green;
+    font-size: 9px;
+    margin-right: 3px;
+}
+.itemtext5{
+    color: gray;
+    font-size: 7px;
+    margin-left: 120px;
+    margin-top: 3px;
+}
+
+/*右边kuai3*/
+.part1{
+    background-color:white;
+    height: 20%;
+}
+.part1-left{
+    width:20%;
+    flex-direction: column;
+}
+.part1-touxiang{
+    margin-top:15px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+.part1left-text{
+    font-size: 17px;
+    color: black;
+    margin-left: 40px;
+    margin-top:-8px;
+}
+.part1-text{
+    flex-direction: column;
+}
+.part1-text1{
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.part1-text2{
+    margin-top: 10px;
+   flex-direction: row;
+}
+.part1text2{
+    font-size: 12px;
+    margin-left:15px;
+    color: black;
+}
+.part1-text3{
+    margin-top: 10px;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.part1text3{
+    font-size: 15px;
+    color: black;
+}
+.part1text3-1{
+    font-size: 15px;
+    color: green;
+    margin-right:30px;
+}
+/*part2*/
+.part2{
+/*    background-color: #ebfcfcfc;*/
+    height:35%;
+    flex-direction: row;
+}
+.part2-text{
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+.todo-wrapper {
+    margin-top: 10px;
+    width: 420px;
+    height: 200px;
+}
+.todo-item {
+    margin-top: 2px;
+    width: 420px;
+    border:1px solid #dbdfdeda;
+    background-color: white;
+    margin-right: 10px;
+    flex-direction:row;
+    margin-left: 20px;
+}
+.todo-title1 {
+    color: #c3000000;
+    margin-left: 20px;
+    height: 30px;
+    font-size: 15px;
+}
+.todo-title2 {
+    color: #c3000000;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 15px;
+}
+/*patt3*/
+.part3{
+    height: 25%;
+    flex-direction:row;
+}
+.part3-content1{
+/*    background-color:snow;*/
+    width: 40%;
+    flex-direction: column;
+
+}
+.content1text{
+    font-size: 11px;
+    color: black;
+    margin-left: 10px;
+    width:30%
+}
+.min-progress {
+    secondary-color:green;
+    background-color:white;
+    stroke-width:10px;
+    width: 130px;
+    height: 50px;
+    margin-left: 10px;
+}
+.part3-content2{
+    width: 60%;
+/*    background-color: white;*/
+    flex-direction: column;
+}
+.content2text{
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.bar{
+    height: 85%;
+}
+/*part4*/
+.part4{
+/*    background-color: white;*/
+    height: 20%;
+}

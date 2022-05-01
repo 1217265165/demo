@@ -1,0 +1,8 @@
+
+<div class="container">
+    <button class="btn" @click="goback">返回主页</button>
+    <button class="btn" value="获取数据" onclick="onClick"></button>
+    <text class="tet">
+        {{ winfo }}
+    </text>
+</div>

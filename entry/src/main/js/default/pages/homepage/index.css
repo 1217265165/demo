@@ -1,0 +1,285 @@
+
+.chart-data1 {
+    width:100%;
+    height: 150px;
+    margin-top: 5px;
+}
+.tabs1 {
+    width: 100%;
+}
+.tab-bar1 {
+    width: 50px;
+    margin-left: 5px;
+    height: 100px;
+    margin-bottom: -25px;
+}
+.a{
+    width: 20px;
+    height: 20px;
+    background-color: #3f9cec;
+}
+.b{
+    width: 20px;
+    height: 20px;
+    background-color: #1942cd;
+
+}
+.c{
+    width: 20px;
+    height: 20px;
+    background-color: #50aa22;
+}
+.tabcontent1{
+    margin-left: -20px;
+    height: 100%;
+    justify-content: center;
+}
+.item-content1{
+    margin-top:-20px;
+    height: 170px;
+    width: 100%;
+    margin-left: 10px;
+    flex-direction: column;
+}
+.x{
+    margin-top: 12px;
+    margin-left: -20px;
+}
+.container {
+    background-color: #43d3d3d3;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 92%;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+.tabcontent {
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.content {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*最上边*/
+.tou{
+    background-color: white;
+    height: 130px;
+}
+.zt{
+    flex-direction: column;
+    height: 130px;
+    width: 40%;
+    margin-top: 30px;
+}
+.Zt{
+    flex-direction: column;
+    height: 130px;
+    width: 50%;
+    margin-left: 20px;
+    margin-top:42px;
+}
+.zt1{
+    margin-top: 18px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.zt2{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 27px;
+}
+.zt3{
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 17px;
+
+}
+.zt4{
+    margin-top: 8px;
+    font-size: 18px;
+    color: green;
+}
+.shuaxin{
+    height:25px;
+    width:25px;
+    margin-left:300px;
+    object-fit: contain;
+    margin-top:4px;
+}
+/*标题*/
+.biaoti{
+    height: 45px;
+    flex-direction: row;
+    margin-top: 10px;}
+.ziti1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 45%;
+}
+.ziti2{
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.ziti3{
+    font-size: 20px;
+    color: green;
+    margin-top: 12px;
+}
+.ziti4{
+    font-size: 20px;
+    color: green;
+    margin-top: 0px;
+}
+.ziti5{
+    font-size: 20px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.kuai{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+    margin-bottom: 25px;
+}
+.kuai1{
+    width: 340px;
+    height: 180px;
+    border:1px solid #dbdfdeda;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+
+
+
+
+.tou1{
+    font-size:25px;
+    margin-left:20px;
+}
+.tou2{
+    font-size:25px;
+    color:gray;
+}
+.ha{
+    margin-left: 2px;
+    flex-direction: column;
+    font-size:20px;
+    margin-top: -300px;
+}
+.block{
+    margin-top:10px;
+}
+.tabs {
+    width: 100%;
+}
+.content {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.block{
+    margin-top:10px;
+}
+
+.zi1 {
+    font-size: 20px;
+    width:100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 160px;
+}
+.zi2{
+    font-size: 20px;
+}
+.chart-data {
+    width: 700px;
+    height: 400px;
+    margin-top: 10px;
+}
+.data-bar {
+    width: 700px;
+    height: 400px;
+}
+.pic{
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left:20px;
+}
+.wenzi{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    width:200px;
+}
+.min-progress {
+    secondary-color:green;
+    background-color:gainsboro;
+    stroke-width:10px;
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+}
+.flex-box {
+    justify-content: space-around;
+/*    align-items: center;*/
+    width: 100%;
+    height: 110px;
+}
+.flex-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 4px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+.number1{
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 20px;
+    height: 40px;
+}
+.number2{
+    margin-top: 20px;
+    color: #D0FF0000;
+    width: 100%;
+    margin-left: 30px;
+    height: 40px;
+}
+.number3{
+    margin-top: 20px;
+    color: green;
+    width: 100%;
+    margin-left: 30px;
+    height: 40px;
+}
+
+.text1 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(90, 89, 89);
+}
+.text2 {
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgb(90, 89, 89);
+}

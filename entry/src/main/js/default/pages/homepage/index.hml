@@ -1,0 +1,123 @@
+<!--pages/a/a.wxml-->
+<element name='comp' src='../../components/tabbar/tabbar.hml'></element>
+<div class="container">
+    <tabs>
+<tab-content  class="tabcontent" scrollable="true">
+    <div class="content">
+        <div class="tou">
+            <div class="zt">
+                <text class="zt1">检测时长</text>
+                <text class="zt2">{{ h }}:{{ m }}:{{ s }}</text>
+            </div>
+            <div class="Zt">
+                <div>
+                    <text class="zt3">当前状态：</text>
+                    <text class="zt4">{{state}}</text>
+                </div>
+                <div>
+                    <text class="zt3">H&Y等级：</text>
+                    <text class="zt4">{{level1}}级</text>
+                </div>
+            </div>
+
+        </div>
+        <image class="shuaxin" onclick="addData" src="../../common/images/刷新.png"></image>
+        <div class="kuai">
+            <div class="kuai1">
+                <tabs class = "tabs1" index="0" vertical="true" onchange="change">
+                    <tab-bar class="tab-bar1" mode="fixed">
+                        <div class="a"></div>
+                        <div class="b"></div>
+                        <div class="c"></div>
+                    </tab-bar>
+                    <tab-content class="tabcontent1" scrollable="false">
+                        <div class="item-content1" >
+                            <div class="biaoti">
+                                <div class="x">
+                                    <text class="ziti1">手部震颤X</text>
+                                    <text class="ziti5">震颤频率: </text>
+                                    <text class="ziti3" >{{num1}}HZ</text>
+                                </div>
+                            </div>
+                            <chart  class="chart-data1" type="line" ref="linechart" options="{{ lineOps }}" datasets="{{ lineData }}">
+                            </chart>
+                        </div>
+                        <div class="item-content1" >
+                            <div class="biaoti">
+                                <div class="x">
+                                    <text class="ziti1">Y</text>
+                                    <text class="ziti5">震颤频率: </text>
+                                    <text class="ziti3" >{{num4}}HZ</text>
+                                </div>
+                            </div>
+                            <chart  class="chart-data1" type="line" ref="linecharty" options="{{ lineOps }}" datasets="{{ lineDatay }}">
+                            </chart>
+                        </div>
+                        <div class="item-content1" >
+                        <div class="biaoti">
+                            <div class="x">
+                                <text class="ziti1">Z</text>
+                                <text class="ziti5">震颤频率: </text>
+                                <text class="ziti3" >{{num5}}HZ</text>
+                            </div>
+                        </div>
+                        <chart  class="chart-data1" type="line" ref="linechartz" options="{{ lineOps }}" datasets="{{ lineDataz }}">
+                        </chart>
+                    </div>
+                    </tab-content>
+                </tabs>
+            </div>
+            <div class="kuai1">
+                <div class="biaoti"> <text class="ziti1">弯曲角度</text>
+                <div>
+                    <text class="ziti5">伸展角度: </text>
+                    <text class="ziti3">{{num2}}°</text>
+                </div>
+            </div>
+                <chart class="chart-data" type="line" ref="linechart1" options="{{ lineOps1 }}"
+                       datasets="{{ lineData1 }}"></chart>
+            </div>
+
+            <div class="kuai1">
+                <div class="biaoti">
+                <text class="ziti1">肌电信号</text>
+                <div>
+                    <text class="ziti2">频带能量:</text>
+                    <text class="ziti3"> {{num3}}V/Hz</text>
+                </div>
+            </div>
+                <chart class="chart-data" type="line" ref="linechart2" options="{{ lineOps2 }}"
+                             datasets="{{ lineData2 }}"></chart>
+            </div>
+        </div>
+        <div class="progress-box">
+            <progress class="min-progress" type="horizontal"  secondarypercent="80"></progress>
+            <text  class="ziti4">良好</text>
+        </div>
+        <div class="flex-box">
+            <div class="flex-item">
+                <text class="number1"> {{number1}}次</text>
+                <text class="text1">累计检测</text>
+            </div>
+            <div class="flex-item">
+                <text class="number2"> {{number2}}次</text>
+                <text class="text1">异常数据</text>
+            </div>
+            <div class="flex-item">
+                <text class="number3">83%</text>
+                <text class="text1">匹配程度</text>
+            </div>
+        </div>
+    </div>
+</tab-content>
+</tabs>
+    <comp index="0"></comp>
+
+</div>
+
+
+
+
+
+
+

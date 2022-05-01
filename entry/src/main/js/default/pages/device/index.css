@@ -1,0 +1,117 @@
+.container {
+    background-color: #43d3d3d3;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 92%;
+    flex-direction: column;
+/*  align-items: center;*/
+/*justify-content: space-between;*/
+}
+.kuai{
+    margin-top: 20px;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.tou{
+    margin-top: 50px;
+    flex-direction: row;
+
+}
+.zi1 {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.zi2 {
+    height: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    color: rgb(171, 172, 171);
+}
+.shuaxin{
+    height:25px;
+    width:25px;
+    margin-left: 100px;
+    object-fit: contain;
+    margin-top:18px;
+}
+.zi3{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.wifi{
+    height:25px;
+    width:25px;
+    margin-left: 10px;
+    object-fit: contain;
+    margin-top:30px;
+}
+.wang{
+    margin-top: 20px;
+    flex-direction: column;
+}
+.zi{
+    flex-direction: row;
+}
+.ziti1 {
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 18px;
+    color: rgb(90, 89, 89);
+}
+.ziti2 {
+    height: 40px;
+    margin-top: 0px;
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgb(0, 147, 0);
+}
+.ziti3 {
+    height: 40px;
+    margin-top: 0px;
+    font-size: 18px;
+    margin-left: 4px;
+}
+.pic1{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left:20px;
+}
+
+.shuru{
+    margin-top: 20px;
+    flex-direction:column;
+    height: 100px;
+}
+.plan-input{
+    margin-left: 25px;
+    placeholder-color: #848080;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    background-color:white;
+    radius: 0px;
+}
+.bar{
+    margin-left: 160px;
+    top:20px;
+    left: 70px;
+}
+.img{
+    top:0px;
+}
+.xia{
+    font-size: 17px;
+    text-color: black;
+}

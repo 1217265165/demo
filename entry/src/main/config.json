@@ -1,0 +1,97 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplication",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+
+  },
+  "module": {
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      },
+      {
+        "reason": "",
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "package": "com.example.myapplication",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.myapplication.MainAbility",
+    "deviceType": [
+      "phone",
+      "tv",
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.myapplication.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "name": "com.example.myapplication.animate",
+        "icon": "$media:icon",
+        "description": "$string:animate_description",
+        "label": "$string:entry_animate",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/test/index",
+          "pages/fetch/fetch",
+          "pages/doctor/index",
+          "pages/login/index",
+          "pages/homepage/index",
+          "pages/baogao/index",
+          "pages/device/index",
+          "pages/wode/index",
+          "pages/register1/register1",
+          "pages/register2/register2",
+          "pages/register3/register3"
+
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        }
+      }
+    ]
+  }
+}

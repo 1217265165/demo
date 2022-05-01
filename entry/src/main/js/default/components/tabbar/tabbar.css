@@ -1,0 +1,16 @@
+.tabbar {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+}
+.lan{
+    width: 100%;
+    font-size: 17px;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+}
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+}

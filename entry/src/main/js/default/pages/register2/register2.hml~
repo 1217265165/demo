@@ -1,0 +1,17 @@
+<div class="container">
+    <text class="title">请输入验证码</text>
+    <div class="content">
+        <input id="Account" class="input" type="number" value="" maxlength="11" enterkeytype="next"
+               headericon="common/image/验证码.png" placeholder="输入您的手机号" onchange="Change1">
+        </input>
+
+        <image  class="img" src="common/image/分割线.png" style="width: 350px;height: 1px;" >
+        </image>
+        <div  class="annu">
+            <button class="button" type="circle" onclick="two" icon="common/image/箭头填充 2.png" ></button>
+        </div>
+    </div>
+</div>
+
+
+
